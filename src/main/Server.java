@@ -18,6 +18,7 @@ public class Server{
 		try {
 			while (true) {
 				Socket socket = serverSocket.accept();
+//				System.out.println("ABABAB");
 				try {
 					new ServerConnection(socket);
 				}catch (Exception e) {

@@ -11,6 +11,6 @@ public class ServerHelloWorld {
 	
 	public static void main(String[] args) throws IOException {
 		Client client = new Client();
-		client.cli_main(2901, "129.97.124.70");
+		client.cli_main(2901, "127.0.0.1");
 	}
 }
